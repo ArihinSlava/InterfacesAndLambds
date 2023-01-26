@@ -64,7 +64,6 @@ public class Main {
         /// Task 4
         System.out.println("Task4");
 
-
         Supplier<Integer> supplier = new Supplier<Integer>() {
             @Override
             public Integer get() {
@@ -84,6 +83,7 @@ public class Main {
 
         /// Task5
         System.out.println("Task5");
+
 
         Predicate<Integer> predicate2 = x -> x % 2 != 0;
         Function<Integer, Integer> function2 = x -> x * 2;
